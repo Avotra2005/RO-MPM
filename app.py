@@ -5,9 +5,9 @@ import plotly.figure_factory as ff
 from datetime import datetime, timedelta
 
 # --- CONFIGURATION DE LA PAGE ---
-st.set_page_config(page_title="RO MPM Expert", layout="wide", page_icon="🏗️")
+st.set_page_config(page_title="RO MPM", layout="wide", page_icon="🏗️")
 
-st.title("🏗️ Ordonnancement de Projet : Méthode MPM")
+st.title("Ordonnancement de Projet : Méthode MPM")
 st.markdown("""
 Cette application calcule les dates au plus tôt, au plus tard et les marges de vos tâches.
 Elle identifie également le **chemin critique** de votre projet.
